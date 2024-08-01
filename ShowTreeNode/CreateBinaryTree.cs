@@ -8,18 +8,6 @@ namespace ShowTreeNode
 {
     internal static class CreateBinaryTree
     {
-        public record TwoPoint
-        {
-            public int X1,Y1;
-            public int X2,Y2;
-            public TwoPoint(int X1,int Y1,int X2,int Y2)
-            {
-                this.X1 = X1; 
-                this.Y1 = Y1; 
-                this.X2 = X2;
-                this.Y2 = Y2;
-            }
-        }
         public record EllipseNode
         {
             public int x;
@@ -182,7 +170,7 @@ namespace ShowTreeNode
 
             return treeNode;
         }
-        public static EllipseNode[] GetNodes(SpaceTreeNode tree)
+        public static EllipseNode[] GetNodes(SpaceTreeNode tree )
         {
             if (tree == null)
                 return [];

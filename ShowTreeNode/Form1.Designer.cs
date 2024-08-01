@@ -130,7 +130,7 @@
             trackBar1.Orientation = Orientation.Vertical;
             trackBar1.Size = new Size(56, 207);
             trackBar1.TabIndex = 2;
-            trackBar1.Value = 14;
+            trackBar1.Value = 35;
             trackBar1.Scroll += trackBar1_Scroll;
             // 
             // buttonClear
@@ -163,6 +163,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Show Binary Tree";
             WindowState = FormWindowState.Maximized;
+            Load += Form1_Load;
             splitContainerHorizontal.Panel1.ResumeLayout(false);
             splitContainerHorizontal.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainerHorizontal).EndInit();
