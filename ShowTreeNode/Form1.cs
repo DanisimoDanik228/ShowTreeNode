@@ -24,8 +24,8 @@ namespace ShowTreeNode
         private Pen _penLine = new Pen(Brushes.Green, 1);
         private Pen _penDigit = new Pen(Brushes.Black, 1);
         private Graphics _graphics;
-        private const string _filePathMassive = "D:\\ñ#\\ShowTreeNode\\ShowTreeNode\\bin\\Debug\\net8.0-windows\\Binary Tree.bst";
-        private const string _filePathImage = @"D:\ñ#\ShowTreeNode\ShowTreeNode\bin\BinaryTree.png";
+        private string _filePathMassive = "Binary Tree.bst";
+        private string _filePathImage = "BinaryTree.png";
         public Form1()
         {
             InitializeComponent();
